@@ -46,7 +46,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-FLOAT16_NUM_SIGNIFICAND_BITS = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-num-significand-bits@umd/browser.js' )
+FLOAT16_NUM_SIGNIFICAND_BITS = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-num-significand-bits@v0.0.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -58,7 +58,7 @@ var FLOAT16_NUM_SIGNIFICAND_BITS = require( 'path/to/vendor/umd/constants-float1
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-num-significand-bits@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-num-significand-bits@v0.0.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -98,7 +98,7 @@ var bool = ( FLOAT16_NUM_SIGNIFICAND_BITS === 10 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-num-significand-bits@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-num-significand-bits@v0.0.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 

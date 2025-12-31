@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float16-num-significand-bits",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Number of significand bits for a half-precision floating-point number.",
   "license": "Apache-2.0",
   "author": {

@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import FLOAT16_NUM_SIGNIFICAND_BITS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-num-significand-bits@deno/mod.js';
+import FLOAT16_NUM_SIGNIFICAND_BITS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-num-significand-bits@v0.0.1-deno/mod.js';
 ```
 
 #### FLOAT16_NUM_SIGNIFICAND_BITS
@@ -71,7 +71,7 @@ var bool = ( FLOAT16_NUM_SIGNIFICAND_BITS === 10 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import FLOAT16_NUM_SIGNIFICAND_BITS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-num-significand-bits@deno/mod.js';
+import FLOAT16_NUM_SIGNIFICAND_BITS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-num-significand-bits@v0.0.1-deno/mod.js';
 
 console.log( FLOAT16_NUM_SIGNIFICAND_BITS );
 // => 10
